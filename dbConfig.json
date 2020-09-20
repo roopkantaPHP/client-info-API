@@ -1,0 +1,7 @@
+{
+  "mongoDB": {
+    "HOST": "localhost",
+    "PORT": 27017,
+    "DBNAME": "clientdb"
+  }
+}

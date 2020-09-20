@@ -1,0 +1,37 @@
+{
+  "RECORD_NOT_FOUND": {
+    "HTTPCODE": 404,
+    "details": {
+      "statusCode": 404,
+      "message": "Could find record"
+    }
+  },
+  "DB_CONNECTION_ERROR": {
+    "HTTPCODE": 503,
+    "details": {
+      "statusCode": 503,
+      "message": "Database service Unavailable"
+    }
+  },
+  "INSERTION_ERROR": {
+    "HTTPCODE": 400,
+    "details": {
+      "statusCode": 400,
+      "message": "Unable to create record. Bad data"
+    }
+  },
+  "UPDATE_ERROR": {
+    "HTTPCODE": 400,
+    "details": {
+      "statusCode": 400,
+      "message": "Unable to update record. Bad data"
+    }
+  },
+  "DELETE_ERROR": {
+    "HTTPCODE": 400,
+    "details": {
+      "statusCode": 400,
+      "message": "Unable to delete record."
+    }
+  }
+}
